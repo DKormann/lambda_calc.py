@@ -1,11 +1,8 @@
 #%%
-from dataclasses import dataclass
-
 '''
 λx.x
 λx.λy.x
 '''
-
 abc = 'abcdefghijklmnopqrstuvwxyz'
 def numalph(n): return abc[n%26] + str(n//26 or '')
 
